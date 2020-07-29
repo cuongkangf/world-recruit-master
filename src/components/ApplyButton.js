@@ -1,5 +1,10 @@
 import React from "react";
+import "./ApplyButton.css";
+import { Link } from "react-router-dom";
 
-export default function ApplyButton(props) {
-  return <div></div>;
+export default function ApplyButton() {
+  return(
+    <a href="/#applyform" className="button">応募</a>
+    // <Link href={props.path} className="button">応募</Link>
+  );
 }
