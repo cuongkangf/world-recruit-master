@@ -1,6 +1,5 @@
 import React from "react";
 import "./ApplyButton.css";
-import { Link } from "react-router-dom";
 
 export default function ApplyButton() {
   return(

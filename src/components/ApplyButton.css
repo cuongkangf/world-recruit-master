@@ -1,5 +1,5 @@
 .button {
-    position: fixed;
+    /* position: fixed;
     bottom: 50px;
     right: 50px;
     width: 50px;
@@ -7,5 +7,30 @@
     cursor: pointer;
     display: inline-block;
     background-color: dodgerblue;
-    color: white;
+    color: white; */
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6666ff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+}
+
+.button:hover {
+    background-color: #4d4dff
+}
+
+.button:active {
+    background-color: #4d4dff;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
 }
